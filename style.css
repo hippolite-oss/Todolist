@@ -91,7 +91,8 @@ h1 {
 }
 
 #taskInput:focus {
-  background: rgba(255, 255, 255, 1);
+  background: rgb(255, 255, 255);
+  color: lightblue;
   outline: none;
   box-shadow:
     0 0 0 3px var(--accent),
@@ -150,7 +151,7 @@ h1 {
 }
 
 .task-text {
-  color: var(--text-primary);
+  color: blue;
   flex: 1;
   word-break: break-word;
   padding-right: 0.75rem;
